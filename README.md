@@ -6,6 +6,8 @@ UNDER NO CIRCUMSTANCES SHALL THE AUTHOR BE LIABLE FOR MATERIAL OR NON-MATERIAL D
 This is not an official guide and I am not affiliated with Technics or the Panasonic Corporation (formerly Matsushita Electric Industrial Co. Ltd.).
 
 ## Introduction
+![Wiring diagram](/images/done.jpg)
+
 Technics GA was one of the last series of electronic organs ever manufactured by Technics in the 1990s. Even today, they are considered very good instruments by many musicians. They were originally equipped with a floppy drive that could read and write 2HD and 2DD 3.5" disks. While floppy disk drives in musical instruments are still used, sometimes even in brand new ones, they do not provide the reliability, speed, data safety and convenience expected nowadays. Because of that, there are efforts to replace floppy drives with emulators that use other media (USB drives, SD cards, ...) but provide the same interface to the device as a floppy drive. This fixes some of the problems, like reliability and data safety. These emulators are also faster in some cases as they usually don't produce read errors as opposed to regular floppy disks.
 
 The Technics GA-series used special floppy drives that did not use the standard IBM PC or Shugart connectors. Instead it used a flat flex cable. Therefore standard floppy emulators can not be used in these organs without modification. Fortunately, the organs used an interace that is logic level compatible and even uses most of the same pins. It is possible to build a fully-passive adapter that connects the emulator and the organ.
