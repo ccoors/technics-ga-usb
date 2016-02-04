@@ -15,9 +15,7 @@ The Technics GA-series used special floppy drives that did not use the standard 
 This repository contains the information needed to build such an adapter.
 
 ## Motivation
-The floppy drive in my Technics GA3 broke and any good disk I put in there was unreadable after it had been written to. As getting a replacement drive was expensive or impossible I decided to install a floppy emulator. Someone already made these adapters and was selling them, but unfortunately I was unable to get one.
-
-So I decided to build my own adapter. To do that I had to get the service manual for the organ and a cheap USB floppy emulator (I got a GOTEK SFR1M44-U100K-R).
+The floppy drive in my Technics GA3 broke and any good disk I put in there was unreadable after it had been written to. As getting a replacement drive was expensive or impossible I decided to install a floppy emulator and build my own adapter. To do that I had to get the service manual for the organ and a cheap USB floppy emulator (I got a GOTEK SFR1M44-U100K-R).
 
 As stated, the original drive is not connected through a standard floppy cable but a flat flex cable (see images/floppy_drive) which I could not get a connecting plug for, so I did something I did not want to. I had to solder directly to an original Technics circuit board (see images/my_adapter). I guess that's ok as I don't intend to install a floppy drive again, and even if I had to I could unsolder it without damaging the board. I designed a small adapter with a few extra pin headers so I could experiment and rewire them and installed that too. It did not work. As you can see in the pinout of the organ I have 2 unknown pins. None of them were explained in the service manual and apart from the name of the pins I had no more information. So I tried around for a bit but still couldn't get it to work. At some point I gave up. It was not that important and I could live without a working disk drive in my organ for the moment.
 
