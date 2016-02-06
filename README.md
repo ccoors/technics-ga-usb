@@ -55,36 +55,36 @@ Pin number | Name | Description/Details
 The pin names are taken from the official service manual for the organ.
 
 ### Newer pinout
-Apparently the original floppy drive was discontinued and Technics switched to a newer model later on. This one had 26 pins instead of the 24 pins the original one had. The pinout differs, here is the 26 pin pinout:
+Apparently the original floppy drive was discontinued and Technics switched to a newer model later on. This one had 26 pins instead of the 24 pins the original one had. The pinout differs, here is the newer, 26 pin pinout:
 
-Pin number | Name
----------- | ----
-1 | SIDE
-2 | GND
-3 | RDAT
-4 | GND
-5 | WPRT
-6 | GND
-7 | TRK0
-8 | GND
-9 | WE/WG
-10 | GND
-11 | WDAT
-12 | GND
-13 | STEP
-14 | NC
-15 | DIR/DS
-16 | NC
-17 | M.ON
-18 | M.Out
-19 | READY
-20 | NC
-21 | NC
-22 | +5V
-23 | DS0
-24 | +5V
-25 | INDEX*
-26 | +5V
+Pin number | Name | Old pin number
+---------- | ---- | --------------
+1 | SIDE | 16
+2 | GND | N/A
+3 | RDAT | 14
+4 | GND | N/A
+5 | WPRT | 13
+6 | GND | N/A
+7 | TRK0 | 12
+8 | GND | N/A
+9 | WE/WG | 11
+10 | GND | N/A
+11 | WDAT | 9
+12 | GND | N/A
+13 | STEP | 7
+14 | NC | N/A
+15 | DIR/DS | 6
+16 | NC | N/A
+17 | M.ON | 5
+18 | M.OUT | 4
+19 | READY | 19
+20 | NC | N/A
+21 | NC | N/A
+22 | +5V | N/A
+23 | DS0 | 3
+24 | +5V | N/A
+25 | INDEX* | 2
+26 | +5V | N/A
 
 ## Pinout of a standard IBM floppy drive
 All uneven pins are GND (Ground).
