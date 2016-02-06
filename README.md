@@ -60,17 +60,17 @@ Apparently the original floppy drive was discontinued and Technics switched to a
 Pin number | Name | Old pin number
 ---------- | ---- | --------------
 1 | SIDE | 16
-2 | GND | N/A
+2 | GND | 8, 10, 15, 17, 18
 3 | RDAT | 14
-4 | GND | N/A
+4 | GND | 8, 10, 15, 17, 18
 5 | WPRT | 13
-6 | GND | N/A
+6 | GND | 8, 10, 15, 17, 18
 7 | TRK0 | 12
-8 | GND | N/A
+8 | GND | 8, 10, 15, 17, 18
 9 | WE/WG | 11
-10 | GND | N/A
+10 | GND | 8, 10, 15, 17, 18
 11 | WDAT | 9
-12 | GND | N/A
+12 | GND | 8, 10, 15, 17, 18
 13 | STEP | 7
 14 | NC | N/A
 15 | DIR/DS | 6
@@ -80,11 +80,11 @@ Pin number | Name | Old pin number
 19 | READY | 19
 20 | NC | N/A
 21 | NC | N/A
-22 | +5V | N/A
+22 | +5V | 20, 21, 23, 24
 23 | DS0 | 3
-24 | +5V | N/A
+24 | +5V | 20, 21, 23, 24
 25 | INDEX* | 2
-26 | +5V | N/A
+26 | +5V | 20, 21, 23, 24
 
 ## Pinout of a standard IBM floppy drive
 All uneven pins are GND (Ground).
