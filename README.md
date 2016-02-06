@@ -22,6 +22,7 @@ As stated, the original drive is not connected through a standard floppy cable b
 Nearly a year later, in February 2016, I searched the internet again and looked at my adapter and the emulator and noticed that I had the wrong jumper settings on the emulator. Apparently it is possible to do some minor configuration on there, like setting to emulate drive A or B and whether to generate a proper READY-signal or not. I changed the jumpers and connected my adapter the right way and it worked!
 
 ## Pinout of the organ
+### Older pinout
 The pin numbers 1 and 24 are written on the PCB.
 
 Pin number | Name | Description/Details
@@ -31,7 +32,7 @@ Pin number | Name | Description/Details
 3 | DS0 | Disk select 0
 4 | MED*/M.OUT | Unknown
 5 | MOT/M.ON | Motor enable
-6 | DIR (DS) | Step direction
+6 | DIR/DS | Step direction
 7 | STEP | Triggers a step
 8 | GND | Ground
 9 | WDAT/WD | Write data
@@ -52,6 +53,38 @@ Pin number | Name | Description/Details
 24 | +5V | Positive 5V rail
 
 The pin names are taken from the official service manual for the organ.
+
+### Newer pinout
+Apparently the original floppy drive was discontinued and Technics switched to a newer model later on. This one had 26 pins instead of the 24 pins the original one had. The pinout differs, here is the 26 pin pinout:
+
+Pin number | Name
+---------- | ----
+1 | SIDE
+2 | GND
+3 | RDAT
+4 | GND
+5 | WPRT
+6 | GND
+7 | TRK0
+8 | GND
+9 | WE/WG
+10 | GND
+11 | WDAT
+12 | GND
+13 | STEP
+14 | NC
+15 | DIR/DS
+16 | NC
+17 | M.ON
+18 | M.Out
+19 | READY
+20 | NC
+21 | NC
+22 | +5V
+23 | DS0
+24 | +5V
+25 | INDEX*
+26 | +5V
 
 ## Pinout of a standard IBM floppy drive
 All uneven pins are GND (Ground).
@@ -79,6 +112,8 @@ Pin number | Name
 34 | Disk change/Ready
 
 ## Wiring diagram
+**Warning:** The wiring diagram below refers to the original, 24-pin pinout. If you have a 26 pin connector on the instrument you'll have to translate the pins. So for example, pin 2 of the organ connected to pin 8 of the emulator becomes pin 25 on the organ connected to pin 8 on the emulator and so on.
+
 ![Wiring diagram](/images/wiring.png)
 
 Most emulators only support 1.44 MB floppy disks, that's why pin 2 (Density select) on the emulator is tied to Ground. Simply connect it to one of the GND pins on the organ.
