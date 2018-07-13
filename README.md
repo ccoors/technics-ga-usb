@@ -6,7 +6,7 @@ UNDER NO CIRCUMSTANCES SHALL THE AUTHOR BE LIABLE FOR MATERIAL OR NON-MATERIAL D
 This is not an official guide and I am not affiliated with Technics or the Panasonic Corporation (formerly Matsushita Electric Industrial Co. Ltd.).
 
 ## Introduction
-![Wiring diagram](/images/done.jpg)
+![Wiring diagram](images/done.jpg)
 
 Technics GA was one of the last series of electronic organs ever manufactured by Technics in the 1990s. Even today, they are considered very good instruments by many musicians. They were originally equipped with a floppy drive that could read and write 2HD and 2DD 3.5" disks. While floppy disk drives in musical instruments are still used, sometimes even in brand new ones, they do not provide the reliability, speed, data safety and convenience expected nowadays. Because of that, there are efforts to replace floppy drives with emulators that use other media (USB drives, SD cards, ...) but provide the same interface to the device as a floppy drive. This fixes some of the problems, like reliability and data safety. These emulators are also faster in some cases as they usually don't produce read errors as opposed to regular floppy disks.
 
@@ -89,7 +89,7 @@ Pin number | Name | Old pin number
 ## Pinout of a standard IBM floppy drive
 All uneven pins are GND (Ground).
 
-![Floppy pinout](/images/floppy_pinout.png)
+![Floppy pinout](images/floppy_pinout.png)
 
 Pin number | Name
 ---------- | ----
@@ -114,7 +114,7 @@ Pin number | Name
 ## Wiring diagram
 **Warning:** The wiring diagram below refers to the original, 24-pin pinout. If you have a 26 pin connector on the instrument you'll have to translate the pins. So for example, pin 2 of the organ connected to pin 8 of the emulator becomes pin 25 on the organ connected to pin 8 on the emulator and so on.
 
-![Wiring diagram](/images/wiring.png)
+![Wiring diagram](images/wiring.png)
 
 Most emulators only support 1.44 MB floppy disks, that's why pin 2 (Density select) on the emulator is tied to Ground. Simply connect it to one of the GND pins on the organ.
 
